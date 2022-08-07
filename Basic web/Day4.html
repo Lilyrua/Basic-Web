@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyshop</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .content {
+            width: fit-content;
+            margin: 0 auto;
+            margin-top: 100px;
+            background-color: white;
+            text-align: center;
+        }
+        body {
+            background: url(https://media.giphy.com/media/hcqQpHT2uya8o/giphy.gif);
+        }
+
+    </style>
+</head>
+<div class="navbar">
+    <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="form.html"><li>Register</li></a>
+        <a href="Day2.html"><li>Profile</li></a>
+        <a href="Day3.html"><li>Grader</li></a>
+        <a href="Day4.html"><li>Toyshop</li></a>
+        <a href="color.html"><li>ColorG</li></a>
+        <a href="Last key Click.html"><li>Lastkey</li></a>
+    </ul>
+</div>
+<body>
+    <br><br><br><br><br><br>
+    <div
+        class="content"
+        style="border: 3px solid black; padding: 50px"
+        >
+    <h1 id="result"></h1>
+    <label> ราคาของเล่น : </label><input type="text" id="pieces"placeholder="type ur prices">
+    <br><br>
+    <label> จำนวนของเล่น : <input type="text" id="items"placeholder="type ur pieces"><br><br>
+    <button onclick="calculate()">Gotcha!!</button>
+    <button onclick="alert('เจ็บนะเว้ย')">BTN 1</button>
+    </div>
+    <script>
+        function calculate(){
+            const pieces = Number(document.getElementById("pieces").value);
+            const items = Number(document.getElementById("items").value);
+            let total = 0;
+            for (let index = 1; index <= items; index++) {
+                total += pieces;
+            }
+            document.getElementById("result").innerText = total;
+        }
+    </script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,111 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+/* ALL */
+.navbar ul a li{
+
+    color:rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+   
+}
+.navbar a{
+
+    text-decoration: none;
+}
+body{
+
+    background-color: antiquewhite;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* FORM */
+.form{
+    text-align: center;
+    background-blend-mode:lighten;
+}
+.bottompage input{
+    background-color: snow;
+    text-align: center;
+}
+.fieldform{
+    margin: center;
+    text-align: center;
+    background-blend-mode: screen;
+}
+.fieldform2{
+    text-align: center;
+    background-blend-mode: screen;
+    margin: center;
+    width: fit-content;
+    
+}
+.form h1{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: rgb(29, 22, 22);
+    text-shadow: 0 6px rgb(255, 255, 255) ;
+    float: ;
+
+}
+
+/* Profile */
+.profile{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 850px;
+    text-align: center;
+    background-color:snow
+    
+}
+.group h1{
+    text-align: ;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 0 6px rgb(240, 212, 240) ;
+}
+.group h5{
+    
+    font-family: 'Kanit', sans-serif;
+}
+.Image img{
+    width: 70px;
+    height: 70px;
+    
+    
+}
+.group h2{
+    font-family: 'Kanit', sans-serif;
+}
+.fieldpro fieldset{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: fit-content;
+
+}
+.group h1 img{
+
+}
+.main img{
+    border: 1px dashed black; 
+}
+.rgo h5{
+    text-align: left;
+}
+.Pic {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: fit-content;
+
+}
